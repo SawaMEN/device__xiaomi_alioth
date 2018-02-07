@@ -984,6 +984,9 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|c2b6cd79a2fdc28ea10dd3d357ffd14235222a7d
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|8ac5e1e7ec700083a4bff481f8ebd9e362e94978
 
+# Power-off charging daemon
+bin/charger:bin/chargeonlymode
+
 # QCC - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b49b4964ca1b391921b05d0350479bae517a75ae
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
