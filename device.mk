@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
