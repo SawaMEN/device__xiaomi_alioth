@@ -1,0 +1,2 @@
+# Bluetooth
+persist.vendor.btstack.enable.lpa=true
