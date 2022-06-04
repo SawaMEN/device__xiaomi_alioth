@@ -128,6 +128,8 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += LLVM=1
 TARGET_KERNEL_ADDITIONAL_FLAGS := LD=ld.lld AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
+KERNEL_LLVM_SUPPORT := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
