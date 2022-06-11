@@ -26,6 +26,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # PixelExperience stuffs
 CUSTOM_BUILD_TYPE := Kitagawa
 
+# Device identifier
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
@@ -34,6 +35,7 @@ PRODUCT_MODEL := M2012K11AG
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Fingerprint
 BUILD_FINGERPRINT := google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

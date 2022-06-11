@@ -12,14 +12,14 @@ camera.disable_zsl_mode=true
 # Charger
 ro.charger.disable_init_blank=true
 
+# CNE
+persist.vendor.cne.feature=1
+
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 persist.vendor.color.matrix=2
-
-# CNE
-persist.vendor.cne.feature=1
 
 # DPM
 persist.vendor.dpm.feature=1
@@ -42,6 +42,10 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
 
+# Netmgr
+persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
+
 # ParanoidDoze
 ro.sensor.pickup=xiaomi.sensor.pickup
 ro.sensor.proximity=true
@@ -52,10 +56,6 @@ ro.vendor.qti.core_ctl_min_cpu=2
 
 # Radio
 ro.telephony.default_network=33,22
-
-# Netmgr
-persist.vendor.data.iwlan.enable=true
-persist.vendor.data.mode=concurrent
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
